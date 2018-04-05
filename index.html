@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+<!-- Country with flags CSS -->
+<link href="css/flags.css" rel="stylesheet">
+
+<!-- // Country with flags CSS -->
+
+<!--  Country code with phone CSS -->
+<link rel="stylesheet" href="css/intlTelInput.css">
+<!-- // Country code with phone CSS -->
+
+</head>
+<body>
+
+<div class="container" style="margin-top: 20px">
+    <div id="country_flages"
+        data-input-name="country"
+        data-selected-country="US"
+        data-button-size="btn-lg"
+        data-button-type="btn-warning"
+        data-scrollable="true"
+        data-scrollable-height="250px">
+    </div>
+    
+    
+    <div class="text-center">
+        <input type="tel" id="demo" placeholder="">
+    </div>
+</div>
+
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+
+ <!-- Country with flags js -->
+ <script src="js/jquery.flagstrap.js"></script>
+
+ <script>
+    $('#country_flages').flagStrap();
+</script>
+<!--demo link-->
+<!--https://www.jqueryscript.net/form/jQuery-Plugin-For-Country-Selecter-with-Flags-flagstrap.html-->
+ <!-- // Country with flags js -->
+ 
+ <!--  Country code with phone CSS -->
+ <script src="js/intlTelInput.js"></script> 
+
+ <script>
+     $("#demo").intlTelInput();
+</script>
+<!--demo link-->
+<!--https://www.jqueryscript.net/form/jQuery-International-Telephone-Input-With-Flags-Dial-Codes.html -->
+ <!--  Country code with phone CSS -->
+ 
+ 
+ 
+ 
+</body>
+</html> 
